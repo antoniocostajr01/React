@@ -1,0 +1,7 @@
+// No React a propriedade "key" é muito importante nos elementos com LISTAGEM DINÂMICA pq o react vai usar ela pra saber qual elemento é qual na hora de renderiza-lo
+
+//Além do que, caso não seja usada o react vai emeit uma mensagem no console informando o erro. 
+
+ROTEAMENTO:
+- Forma como as SPAs fazem para conseguir trocar de página sem precisar requisitar outra para o servidor, ou seja, quando clicar em um link ele deve trocar o que esta sendo renderizado em tela;
+- Nesse projeto sera usado a biblioteca React Router DOM.
