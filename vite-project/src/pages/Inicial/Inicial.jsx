@@ -1,5 +1,9 @@
 import { FormCriarTarefa, ListaTarefas } from "../../components";
-import style from './Incial.module.css'
+
+import style from './Incial.module.css';
+
+
+
 
 const Inicial = () => {
      return (

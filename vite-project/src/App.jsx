@@ -1,16 +1,18 @@
 import { BrowserRouter } from 'react-router-dom';
 
-import { Cabecalho, Conteudo, Rodape } from './components';
-import { Inicial } from './pages';
+import { AppContextProvider } from './contexts';
+
+import { Router } from './Router';
 
 import './App.css'
-import { Router } from './Router';
 
 const App = ( ) => {
      return (
-          <BrowserRouter>
-               <Router/>
-          </BrowserRouter>
+          <AppContextProvider>
+               <BrowserRouter>
+                    <Router/>
+               </BrowserRouter>
+          </AppContextProvider>
      )
 };
 
